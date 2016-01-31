@@ -39,6 +39,21 @@
   
 }
 
+.full2 {
+  background: url(../images/screez2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Josefin Slab" !important;
+  overflow: hidden;
+  
+}
+
+.text-success {
+    color: darkred
+}
+
 
 _:-moz-tree-row(hover), .full {
     background: url(../images/Untitled.jpg) no-repeat center center fixed; 
