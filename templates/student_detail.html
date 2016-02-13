@@ -7,12 +7,13 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="CrocoG WebDesign Academy">
     <meta name="author" content="Gennadiy Filimonov Inc.">
-    <link rel="icon" href="../static/images/favicon.ico">
+    {% load staticfiles %}
+     <link rel="icon" href="{% static 'images/favicon.ico' %}">
 
     <title>McCarthy Joel</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../static/css/bootstrap.css" rel="stylesheet">
+    <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
     
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -20,10 +21,9 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <!-- Custom styles for this template -->
-<!--    <link href="../static/css/carousel.css" rel="stylesheet">-->
+
     <!-- Required style for those damn auto-tests   -->
-    <link href="../static/css/style.css" rel="stylesheet">
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
     
   </head>
 <!-- NAVBAR
@@ -41,13 +41,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="index.html">CrocoAcademy</a>
+              <a class="navbar-brand" href="{% url 'index' %}">CrocoAcademy</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li><a href="index.html">Main</a></li>
-                <li><a href="contact.html">Contacts</a></li>
-                <li><a href="student_list.html">Students</a></li>
+                <li><a href="{% url 'index' %}">Main</a></li>
+                <li><a href="{% url 'contact' %}">Contacts</a></li>
+                <li><a href="{% url 'student_list' %}">Students</a></li>
               </ul>
             </div>
           </div>
@@ -65,7 +65,7 @@
     
     <h2>McCarthy Joel</h2>
     
-    <img class="img-circle" src="../static/images/boxman.jpg" alt="Founder" height="200" width="200">
+    <img class="img-circle" src="{% static 'images/boxman.jpg' %}" alt="Founder" height="200" width="200">
     <br>
     <br>
     <h3>Student's Card</h3>     
@@ -161,14 +161,9 @@
    
 
 
-        
-    
-
-      
       <div class="imagerotate">
-          <img alt="RUNEZZZ!" src="../static/images/wicca.png" height="240" width="240">
+          <img alt="RUNEZZZ!" src="{% static 'images/wicca.png' %}" height="240" width="240">
       </div>
-      
       
       
       <!-- FOOTER -->
@@ -183,8 +178,8 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     
-    <script src="../static/js/jquery.js"></script>
+    <script src="{% static 'js/jquery.js' %}"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../static/js/bootstrap.js"></script>
+    <script src="{% static 'js/bootstrap.js' %}"></script>
 
  
