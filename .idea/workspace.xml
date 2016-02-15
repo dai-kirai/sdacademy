@@ -4,8 +4,6 @@
     <list default="true" id="168400f0-542d-4baa-92aa-39dd970034a5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quadratic/templates/results.html" afterPath="$PROJECT_DIR$/quadratic/templates/results.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quadratic/urls.py" afterPath="$PROJECT_DIR$/quadratic/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quadratic/views.py" afterPath="$PROJECT_DIR$/quadratic/views.py" />
     </list>
     <ignored path="sdacademy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,8 +73,8 @@
       <file leaf-file-name="results.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/quadratic/templates/results.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8785942">
-              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.84664536">
+              <caret line="53" column="109" selection-start-line="53" selection-start-column="109" selection-end-line="53" selection-end-column="109" />
               <folding />
             </state>
           </provider>
@@ -475,7 +473,13 @@
       <option name="project" value="LOCAL" />
       <updated>1455480714397</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Should be ok&#10;">
+      <created>1455493937890</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1455493937890</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -545,7 +549,8 @@
     <MESSAGE value="8.2 done at last" />
     <MESSAGE value="static fix" />
     <MESSAGE value="8.3 app &amp; first steps&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="8.3 app &amp; first steps&#10;" />
+    <MESSAGE value="Should be ok&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Should be ok&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -704,8 +709,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/quadratic/templates/results.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8785942">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.84664536">
+          <caret line="53" column="109" selection-start-line="53" selection-start-column="109" selection-end-line="53" selection-end-column="109" />
           <folding />
         </state>
       </provider>
