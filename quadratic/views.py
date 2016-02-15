@@ -29,8 +29,8 @@ def quadratic_results(request):
     if not notint and (a1 != 0):
         d = b1 ** 2 - 4 * a1 * c1
         if d >= 0:
-            x1 = (-b1 - d ** (1/2.0)) / (2 * a1)
-            x2 = (-b1 + d ** (1/2.0)) / (2 * a1)
+            x1 = (-b1 + d ** (1/2.0)) / (2 * a1)
+            x2 = (-b1 - d ** (1/2.0)) / (2 * a1)
         context.update({'d': d, 'x1': x1, 'x2': x2})
 
     return render(request, 'results.html', context)

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="168400f0-542d-4baa-92aa-39dd970034a5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quadratic/templates/results.html" afterPath="$PROJECT_DIR$/quadratic/templates/results.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quadratic/views.py" afterPath="$PROJECT_DIR$/quadratic/views.py" />
     </list>
     <ignored path="sdacademy.iws" />
@@ -504,7 +503,13 @@
       <option name="project" value="LOCAL" />
       <updated>1455542511671</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="x2 fixed&#10;">
+      <created>1455549940322</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1455549940322</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -579,7 +584,8 @@
     <MESSAGE value="kostyl' removed&#10;" />
     <MESSAGE value="zero-cases fixed&#10;" />
     <MESSAGE value="zero-cases fixed 2&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="zero-cases fixed 2&#10;" />
+    <MESSAGE value="x2 fixed&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="x2 fixed&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
