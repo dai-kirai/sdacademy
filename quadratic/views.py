@@ -24,7 +24,7 @@ def quadratic_results(request):
     b1 = check_int(b)
     c1 = check_int(c)
 
-    context = {'a': a, 'b': b, 'c': c, 'notint': notint}
+    context = {'a': a, 'b': b, 'c': c, 'a1': a1, 'b1': b1, 'c1': c1, 'notint': notint}
 
     if not notint and (a1 != 0):
         d = b1 ** 2 - 4 * a1 * c1
